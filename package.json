@@ -1,0 +1,20 @@
+{
+  "name": "mi-bandeja",
+  "version": "0.5.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/check-data.mjs && node scripts/check-illustrations.mjs && next build",
+    "start": "next start",
+    "check-data": "node scripts/check-data.mjs",
+    "check-illustrations": "node scripts/check-illustrations.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {},
+  "type": "module"
+}
